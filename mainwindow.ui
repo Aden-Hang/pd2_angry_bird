@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1024</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/angry_bird_background_pics_2_ch.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bird_1">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>500</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ground">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>1024</width>
+      <height>168</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/ground_ch.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="shoot_front">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>460</y>
+      <width>275</width>
+      <height>183</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/shoot_ch_front.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="shoot_back">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>462</y>
+      <width>275</width>
+      <height>183</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/shoot_ch_back.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_1">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>550</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_3">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>450</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>500</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_4">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>550</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_5">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>500</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_6">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>450</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_7">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>550</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_1">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_2">
+    <property name="geometry">
+     <rect>
+      <x>565</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_3">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_4">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_5">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_6">
+    <property name="geometry">
+     <rect>
+      <x>725</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_7">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_8">
+    <property name="geometry">
+     <rect>
+      <x>805</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_9">
+    <property name="geometry">
+     <rect>
+      <x>845</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_10">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>340</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>410</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/pig.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>410</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/pig.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>410</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/pig.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_11">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>280</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_12">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>500</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_13">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>520</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_14">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>540</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_15">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>560</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_16">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>580</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_17">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>260</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_18">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>280</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_19">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_20">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>260</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_21">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>280</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_22">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_23">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_24">
+    <property name="geometry">
+     <rect>
+      <x>845</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_25">
+    <property name="geometry">
+     <rect>
+      <x>805</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_26">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_27">
+    <property name="geometry">
+     <rect>
+      <x>725</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_28">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_29">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_30">
+    <property name="geometry">
+     <rect>
+      <x>605</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_31">
+    <property name="geometry">
+     <rect>
+      <x>565</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_32">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>320</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_33">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_34">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>480</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_35">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>460</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_36">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>440</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_37">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>420</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_38">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>400</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_39">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>380</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_40">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>360</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_41">
+    <property name="geometry">
+     <rect>
+      <x>525</x>
+      <y>260</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_42">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_43">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>280</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_44">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>260</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_45">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>360</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_46">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>380</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_47">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>400</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_48">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>420</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_49">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>440</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_50">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>460</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_51">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>480</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_52">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>500</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_53">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>520</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_54">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>540</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_55">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>560</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_56">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>580</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_57">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>360</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_58">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>380</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_59">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>400</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_60">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>420</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_61">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>440</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_62">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>460</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_63">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>540</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_64">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>480</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_65">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>520</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_66">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>500</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_67">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>560</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_68">
+    <property name="geometry">
+     <rect>
+      <x>765</x>
+      <y>580</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_8">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>500</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="box_9">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>450</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_4.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_69">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>360</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_70">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>380</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_71">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>400</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_72">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>420</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_73">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>440</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_74">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>460</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_75">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>480</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_76">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>500</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_77">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>520</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_78">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>540</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_79">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>560</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rock_80">
+    <property name="geometry">
+     <rect>
+      <x>885</x>
+      <y>580</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bottom_1">
+    <property name="geometry">
+     <rect>
+      <x>585</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9_ch.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bottom_2">
+    <property name="geometry">
+     <rect>
+      <x>705</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9_ch.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bottom_3">
+    <property name="geometry">
+     <rect>
+      <x>825</x>
+      <y>300</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/things_9_ch.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egg">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>47</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="break_1">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>360</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="break_2">
+    <property name="geometry">
+     <rect>
+      <x>695</x>
+      <y>360</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="break_3">
+    <property name="geometry">
+     <rect>
+      <x>815</x>
+      <y>360</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>20</y>
+      <width>51</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff0000;&quot;&gt;num1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>50</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff5500;&quot;&gt;num2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>50</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff5500;&quot;&gt;num3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>50</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aa00ff;&quot;&gt;num4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="num_5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>20</y>
+      <width>50</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#aaff00;&quot;&gt;num5&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>25</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; font-style:italic; color:#ffff00;&quot;&gt;SCORE：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>141</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/pics/pause2.png);
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="pause">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>201</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/pause.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>23</x>
+      <y>90</y>
+      <width>141</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="pics.qrc">:/pics/pause2.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="again">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>250</y>
+      <width>141</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/pics/pause2.png);
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>bottom_2</zorder>
+   <zorder>bottom_1</zorder>
+   <zorder>ground</zorder>
+   <zorder>shoot_back</zorder>
+   <zorder>bird_1</zorder>
+   <zorder>box_1</zorder>
+   <zorder>box_3</zorder>
+   <zorder>box_2</zorder>
+   <zorder>box_4</zorder>
+   <zorder>box_5</zorder>
+   <zorder>box_6</zorder>
+   <zorder>box_7</zorder>
+   <zorder>rock_1</zorder>
+   <zorder>rock_2</zorder>
+   <zorder>rock_3</zorder>
+   <zorder>rock_4</zorder>
+   <zorder>rock_5</zorder>
+   <zorder>rock_6</zorder>
+   <zorder>rock_7</zorder>
+   <zorder>rock_8</zorder>
+   <zorder>rock_9</zorder>
+   <zorder>rock_10</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>rock_11</zorder>
+   <zorder>rock_12</zorder>
+   <zorder>rock_13</zorder>
+   <zorder>rock_14</zorder>
+   <zorder>rock_15</zorder>
+   <zorder>rock_16</zorder>
+   <zorder>rock_17</zorder>
+   <zorder>rock_18</zorder>
+   <zorder>rock_19</zorder>
+   <zorder>rock_20</zorder>
+   <zorder>rock_21</zorder>
+   <zorder>rock_22</zorder>
+   <zorder>rock_23</zorder>
+   <zorder>rock_24</zorder>
+   <zorder>rock_25</zorder>
+   <zorder>rock_26</zorder>
+   <zorder>rock_27</zorder>
+   <zorder>rock_28</zorder>
+   <zorder>rock_29</zorder>
+   <zorder>rock_30</zorder>
+   <zorder>rock_31</zorder>
+   <zorder>rock_32</zorder>
+   <zorder>rock_33</zorder>
+   <zorder>rock_34</zorder>
+   <zorder>rock_35</zorder>
+   <zorder>rock_36</zorder>
+   <zorder>rock_37</zorder>
+   <zorder>rock_38</zorder>
+   <zorder>rock_39</zorder>
+   <zorder>rock_40</zorder>
+   <zorder>rock_41</zorder>
+   <zorder>rock_42</zorder>
+   <zorder>rock_43</zorder>
+   <zorder>rock_44</zorder>
+   <zorder>rock_45</zorder>
+   <zorder>rock_46</zorder>
+   <zorder>rock_47</zorder>
+   <zorder>rock_48</zorder>
+   <zorder>rock_49</zorder>
+   <zorder>rock_50</zorder>
+   <zorder>rock_51</zorder>
+   <zorder>rock_52</zorder>
+   <zorder>rock_53</zorder>
+   <zorder>rock_54</zorder>
+   <zorder>rock_55</zorder>
+   <zorder>rock_56</zorder>
+   <zorder>rock_57</zorder>
+   <zorder>rock_58</zorder>
+   <zorder>rock_59</zorder>
+   <zorder>rock_60</zorder>
+   <zorder>rock_61</zorder>
+   <zorder>rock_62</zorder>
+   <zorder>rock_63</zorder>
+   <zorder>rock_64</zorder>
+   <zorder>rock_65</zorder>
+   <zorder>rock_66</zorder>
+   <zorder>rock_67</zorder>
+   <zorder>rock_68</zorder>
+   <zorder>box_8</zorder>
+   <zorder>box_9</zorder>
+   <zorder>rock_69</zorder>
+   <zorder>rock_70</zorder>
+   <zorder>rock_71</zorder>
+   <zorder>rock_72</zorder>
+   <zorder>rock_73</zorder>
+   <zorder>rock_74</zorder>
+   <zorder>rock_75</zorder>
+   <zorder>rock_76</zorder>
+   <zorder>rock_77</zorder>
+   <zorder>rock_78</zorder>
+   <zorder>rock_79</zorder>
+   <zorder>rock_80</zorder>
+   <zorder>bottom_3</zorder>
+   <zorder>shoot_front</zorder>
+   <zorder>egg</zorder>
+   <zorder>break_1</zorder>
+   <zorder>break_2</zorder>
+   <zorder>break_3</zorder>
+   <zorder>num_1</zorder>
+   <zorder>num_2</zorder>
+   <zorder>num_3</zorder>
+   <zorder>num_4</zorder>
+   <zorder>num_5</zorder>
+   <zorder>label_4</zorder>
+   <zorder>pause</zorder>
+   <zorder>label_5</zorder>
+   <zorder>quit</zorder>
+   <zorder>again</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="pics.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pics/bird_red_ch.png</file>
+        <file>pics/bird_yellow_ch.png</file>
+        <file>pics/ground_ch.png</file>
+        <file>pics/shoot_ch_back.png</file>
+        <file>pics/shoot_ch_front.png</file>
+        <file>pics/things_1.png</file>
+        <file>pics/things_4.png</file>
+        <file>pics/things_5.png</file>
+        <file>pics/angry_bird_background_pics_2_ch.png</file>
+        <file>pics/things_6.png</file>
+        <file>pics/things_7.png</file>
+        <file>pics/things_8.png</file>
+        <file>pics/things_9.png</file>
+        <file>pics/pig.png</file>
+        <file>pics/buttom.png</file>
+        <file>pics/things_9_ch.png</file>
+        <file>pics/things_9_green.png</file>
+        <file>pics/bird_blue_ch.png</file>
+        <file>pics/egg_2.png</file>
+        <file>pics/bird_orange_ch_1.png</file>
+        <file>pics/bird_orange_ch.png</file>
+        <file>pics/break.png</file>
+        <file>pics/smoke.png</file>
+        <file>pics/kid.jpg</file>
+        <file>pics/kid_ch.png</file>
+        <file>pics/0_ch.png</file>
+        <file>pics/1_ch.png</file>
+        <file>pics/2_ch.png</file>
+        <file>pics/3_ch.png</file>
+        <file>pics/4_ch.png</file>
+        <file>pics/5_ch.png</file>
+        <file>pics/6_ch.png</file>
+        <file>pics/7_ch.png</file>
+        <file>pics/8_ch.png</file>
+        <file>pics/9_ch.png</file>
+        <file>pics/pause.png</file>
+        <file>pics/pause2.png</file>
+    </qresource>
+</RCC>
