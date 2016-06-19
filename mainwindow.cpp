@@ -817,6 +817,7 @@ void MainWindow::on_quit_clicked()
 void MainWindow::on_again_clicked()
 {
     bird=1;
+    ui->again->hide();
     bird_x[0]=150;
     bird_x[1]=150;
     bird_x[2]=150;
